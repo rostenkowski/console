@@ -1,6 +1,6 @@
 # Console
 
-Symfony Console integration for Nette Framework 3
+Latest **Symfony Console** integration for **Nette Framework 3**
 
 [![Build Status](https://travis-ci.org/rostenkowski/console.svg?branch=master)](https://travis-ci.org/rostenkowski/console)
 [![Coverage Status](https://coveralls.io/repos/github/rostenkowski/console/badge.svg)](https://coveralls.io/github/rostenkowski/console)
