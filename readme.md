@@ -21,8 +21,6 @@ extensions:
   console: Rostenkowski\Console\Extension
 ```
 
-## Registering commands
-
 List your command in the `console.commands` configuration section.
 ```yaml
 console:
@@ -30,7 +28,7 @@ console:
     foo: MyNamespace\FooCommand
 ```
 
-Add your command as a service.
+Alternatively you can add your command as a service.
 ```yaml
 services:
   fooCommand: MyNamespace\FooCommand
