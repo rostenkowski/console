@@ -1,0 +1,27 @@
+{
+  "name": "rostenkowski/console",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "prefer-dist": true,
+  "bin": [
+    "bin/console"
+  ],
+  "require": {
+    "nette/application": "^3.0",
+    "nette/bootstrap": "^3.0",
+    "nette/di": "^3.0",
+    "nette/finder": "^3.0",
+    "symfony/console": "^3.4"
+  },
+  "require-dev": {
+    "nette/tester": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rostenkowski\\": [
+        "src"
+      ]
+    }
+  }
+}
