@@ -17,6 +17,7 @@ $configurator = new Configurator();
 $configurator->addParameters([
 	'baseDir'        => "$dir",
 	'appDir'         => "$dir/app",
+	'logDir'         => "$dir/log",
 	'tempDir'        => "$dir/temp",
 	'wwwDir'         => "$dir/www",
 	'debugMode'      => true,
