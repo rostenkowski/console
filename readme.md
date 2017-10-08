@@ -15,21 +15,22 @@ composer require rostenkowski/console
 
 ## Usage
 
+Register extension in `config.neon`.
 ```yaml
 extensions: 
   console: Rostenkowski\Console\Extension
 ```
 
-## Commands
+## Registering commands
 
-### 1. List your command in the `console.commands` section
+List your command in the `console.commands` configuration section.
 ```yaml
 console:
   commands:
     foo: MyNamespace\FooCommand
 ```
 
-### 2. Add Command as a Service 
+Add your command as a service.
 ```yaml
 services:
   fooCommand: MyNamespace\FooCommand
