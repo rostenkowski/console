@@ -1,3 +1,4 @@
+.idea
 tests/temp
 tests/**/output
 vendor
